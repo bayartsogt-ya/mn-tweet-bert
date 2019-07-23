@@ -11,15 +11,21 @@ For fine-tuning, the small noisy data was crawled from twitter (tweets of @Idero
 
 You can download it using
 
-`source scripts/get_train_data.sh`
+```
+source scripts/get_train_data.sh
+```
 
 ### Models
 You can also use the fine-tuned model on the small dataset using:<br>
-`wget https://storage.googleapis.com/bucket-97tsogoo-gmail/mn-tweets-idree-enkhbat/models/tweetmn-epoch-10/pytorch_model.bin && mv pytorch_model.bin ./output/`
+```
+wget https://storage.googleapis.com/bucket-97tsogoo-gmail/mn-tweets-idree-enkhbat/models/tweetmn-epoch-10/pytorch_model.bin && mv pytorch_model.bin ./output/
+```
 
 If you want to fine-tune the pre-trained BERT (Mongolian) from scratch you can use:
 
-`./scripts/run_classifier.sh`
+```
+./scripts/run_classifier.sh
+```
 
 and this will output the evualation scores too. Before that you need [pre-trained BERT on Mongolian text corpus](https://github.com/tugstugi/mongolian-bert).
 
