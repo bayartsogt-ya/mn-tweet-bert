@@ -20,3 +20,9 @@ tensorboardX==1.8
 torch==1.1.0
 tqdm==4.32.2
 urllib3==1.25.3
+
+
+### for the flask deployment
+flask
+flask_restful
+flask_cors

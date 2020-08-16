@@ -1,0 +1,1 @@
+2019-07-23 14:31:34.592384	http://localhost:5000/api/to_back_end/predict	dnsajkndsa	0	0.999230146408081
